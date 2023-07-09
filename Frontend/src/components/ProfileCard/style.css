@@ -1,0 +1,74 @@
+.profileCard {
+  margin: 2rem auto;
+  max-width: 750px;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo más transparente */
+  border-radius: 2.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profileCard .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  letter-spacing: 2px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to bottom right, #1a7b28, #50a557); /* Agregar degradado al texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agregar sombreado al texto */
+}
+
+.profileCard .field {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.profileCard .fieldName {
+  font-weight: bold;
+  color: #0d893d;
+  margin-right: 0.5rem;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agregar sombreado al texto */
+
+}
+
+.profileCard .fieldData {
+  color: #0d7323;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agregar sombreado al texto */
+
+}
+
+.profileCard a {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+  .profile-card {
+    padding: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .profile-card .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .profile-card .field {
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+
+  .profile-card .field-name {
+    flex-basis: 100%;
+    margin-bottom: 0.25rem;
+  }
+}

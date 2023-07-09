@@ -1,0 +1,126 @@
+.title-user {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #18d200;
+  margin-top: 80px;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agregar sombreado al texto */
+
+  letter-spacing: 2px;
+}
+
+.message {
+  text-align: center;
+  font-size: 2rem;
+  color: #12af27;
+  margin: 3rem;
+  padding: 1rem;
+}
+
+.service-wrapper {
+  margin-top: 16px;
+}
+
+.service-link {
+  display: block;
+  width: 100%;
+  border-radius: 2rem;
+  margin-top: 8px;
+  padding: 8px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.service-link:hover {
+  background-color: #1cc61967;
+  transform: scale(1.05);}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #e6e4ca;
+  border-radius: 0.25rem;
+}
+
+.card.done {
+  background-color: #d9edda;
+}
+
+.card.done .card-title-user,
+.card.done .description-user,
+.card.done .service-type {
+  color: #888;
+}
+
+.card:not(.done) {
+  background-color: #8782ac;
+}
+
+.date {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+  color: #000;
+}
+
+.card-content .service-type {
+  font-size: 1.25rem;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title-user {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.description-user {
+  margin-top: 4px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.check-icon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 18px !important;
+  height: 18px !important;
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .message {
+    font-size: 1.5rem;
+    margin: 2rem;
+    padding: 0.75rem;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .date {
+    font-size: 1.25rem;
+  }
+
+  .card-title-user {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.875rem;
+  }
+}

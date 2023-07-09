@@ -1,0 +1,125 @@
+.editCard {
+  margin: 2rem auto;
+  max-width: 750px;
+  padding: 3.5rem;
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo más transparente */
+  border-radius: 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.editCard h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to bottom right, #1a7b28, #50a557); /* Agregar degradado al texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agregar sombreado al texto */
+}
+
+.editCard form {
+  margin-bottom: 0.5rem;
+}
+
+.editCard label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #50a557;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.editCard textarea,
+.editCard input[type="file"],
+.editCard input[type="text"],
+.editCard input[type="email"],
+.editCard input[type="password"],
+.editCard input[type="URL"] {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #000;
+  background-color: #2c9c1015;
+  border: 1px solid #01190c;
+  border-radius: 0.25rem;
+  transition: border-color 0.3s ease;
+}
+
+.editCard textarea:focus {
+  outline: none;
+  border-color: #00ff08;
+}
+
+.editCard input[type="file"]:focus {
+  outline: none;
+  border-color: #00ff08;
+}
+
+editCard input[type="text"]:focus {
+  outline: none;
+  border-color: #00ff08;
+}
+
+.editCard input[type="email"]:focus {
+  outline: none;
+  border-color: #00ff08;
+}
+
+.editCard input[type="password"]:focus {
+  outline: none;
+  border-color: #00ff08;
+}
+
+.editCard input[type="URL"]:focus {
+  outline: none;
+  border-color: #00ff08;
+}
+
+.editCard input[type="file"] {
+  appearance: none;
+}
+
+.editCard button {
+  display: inline-block;
+  padding: 0.3rem 1.5rem;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(19, 198, 40);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+  margin-left: 30rem;
+}
+
+.editCard button:hover {
+  background-color: #1cc61967;
+  transform: scale(1.1);}
+
+
+@media (max-width: 576px) {
+  .editCard {
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  .editCard h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .editCard button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-left: 3.6rem;
+  }
+}

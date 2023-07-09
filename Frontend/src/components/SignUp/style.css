@@ -1,0 +1,138 @@
+body {
+  --text: #000000;
+  --background: #dbe6fb;
+  --secondary-button: #7dff12;
+  --primary-button: #2a10ef;
+  --accent: #72ffa6;
+}
+
+.signUpPage {
+  margin: 2rem auto;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo más transparente */
+  border-radius: 2.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signUp {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 20rem;
+}
+
+.signUp h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  letter-spacing: 2px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to bottom right, #1a7b28, #50a557); /* Agregar degradado al texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agregar sombreado al texto */
+}
+
+.signUpForm {
+  margin-top: 2.5rem;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 20rem;
+}
+
+.signUpForm label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to bottom right, #1a7b28, #50a557); /* Agregar degradado al texto */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Agregar sombreado al texto */
+}
+
+.signUpData {
+  margin-top: 2rem;}
+
+.signUpForm input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #000000;
+  background-color: rgba(190, 244, 198, 0.202); /* Fondo más transparente */
+  border: 1px solid #e2e8f0;
+  border-radius: 0.25rem;
+  transition: border-color 0.3s ease;
+}
+
+.signUpForm input:focus {
+  outline: none;
+  border-color: #01f65b;
+}
+
+.eye {
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.passwordError {
+  background-color: #f14c4c;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin: 1rem;
+}
+
+.signUpForm button {
+  display: inline-block;
+  padding: 0.2rem 1.5rem;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(19, 198, 40);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 11rem; /* Alinear el botón a la derecha */
+
+}
+
+.signUpForm button:hover {
+  background-color: #1cc61967;
+  transform: scale(1.05);
+}
+
+@media (max-width: 576px) {
+  .signUpPage {
+    padding: 2rem 1rem;
+  }
+
+  .signUp {
+    max-width: 100%;
+  }
+
+  .signUpForm {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .signUpForm input {
+    padding: 0.5rem;
+  }
+
+  .passwordError {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .signUpForm button {
+  margin-left: 1rem; /* Alinear el botón a la derecha */
+
+  }
+}

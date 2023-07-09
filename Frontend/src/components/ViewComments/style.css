@@ -1,0 +1,76 @@
+.comment-container {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 0.375rem;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 20px;
+  padding-bottom: 1.5rem;
+  }
+
+
+.comment-user-info {
+    position: relative;
+    display: flex;
+}
+
+
+.comment-view-photo {
+  top: 5rem;
+  transform: translateY(-50%);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  position: absolute;
+  background-color: #f3f4f6;
+  right: 1rem; /* Colocar a la derecha */
+}
+
+.download {
+  position: absolute;
+  right: 5rem; 
+}
+
+.comment-view-nickname {
+  color: #4b5563;
+  font-size: 1rem;
+}
+
+.comment-view-comment {
+  margin-top: 1.5rem;
+  color: #4a5568;
+}
+
+.comment-view-more-info {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.agregar-comentarios {
+  padding: 2rem;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #020203;
+}
+
+.agregar-auth {
+  text-decoration: underline;
+  color: #8750a5;
+}
+
+.agregar-auth:hover {
+  text-decoration: underline;
+  color: #9991ca;
+}
+
+@media (max-width: 576px) {
+.comment-view-photo {
+  right: -1.5rem;
+  top: 3rem
+}
+}

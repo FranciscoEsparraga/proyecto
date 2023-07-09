@@ -1,0 +1,100 @@
+.serviceCardPage {
+  padding: 2.5rem;
+}
+
+.serviceCard {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.serviceCardType {
+  height: 10rem;
+  background-color: #a3fe8181;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  letter-spacing: 2px;
+}
+
+.serviceCardType p {
+  color: #057e23;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 2.25rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agregar sombreado al texto */
+
+}
+
+.serviceAvatar {
+  position: relative;
+}
+
+.Avatar {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: -5.5rem;
+  background-color: #f7fafc;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.serviceCardData {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #fff;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.serviceCardData h1 {
+  font-size: 1.7rem;
+  color: #383d46;
+  font-weight: bold;
+}
+
+.serviceCardData p {
+  font-size: 1.4rem;
+  color: #565c66;
+}
+
+@media (max-width: 576px) {
+.serviceCardType {
+  height: 10rem;
+  background-color: #a3fe8181;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: rem;
+  border-top-right-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.serviceCardData {
+    padding-left: 0.5rem;
+}
+
+.Avatar {
+  width: 5rem;
+  height: 5rem;
+  margin-top: -4.5rem;
+}
+
+}
+

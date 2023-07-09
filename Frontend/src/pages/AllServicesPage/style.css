@@ -1,0 +1,19 @@
+.agregar-servicios {
+  padding: 2rem;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green; /* Cambiar el color a verde */
+}
+
+
+.agregar-auth {
+  text-decoration: underline;
+  color: #000000 !important;
+}
+
+.agregar-auth:hover {
+  text-decoration: underline;
+  color: #000000 !important;
+}

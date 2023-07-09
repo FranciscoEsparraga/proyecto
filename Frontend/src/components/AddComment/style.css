@@ -1,0 +1,92 @@
+.add-comment {
+  margin: 2rem auto;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo más transparente */
+  border-radius: 2.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-comment > h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to bottom right, #1a7b28, #50a557); /* Agregar degradado al texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agregar sombreado al texto */
+}
+
+.add-comment form {
+  margin-bottom: 2rem;
+}
+
+.add-comment label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to bottom right, #1a7b28, #50a557); /* Agregar degradado al texto */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Agregar sombreado al texto */
+}
+
+.add-comment textarea,
+.add-comment input[type="file"] {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #000;
+  background-color: rgba(190, 244, 198, 0.202); /* Fondo más transparente */
+  border: 1px solid #e2e8f0;
+  border-radius: 0.25rem;
+  transition: border-color 0.3s ease;
+}
+
+.add-comment textarea:focus,
+.add-comment input[type="file"]:focus {
+  outline: none;
+  border-color: #00ff08;
+}
+
+.add-comment input[type="file"] {
+  appearance: none;
+}
+
+.add-comment button {
+  display: inline-block;
+  padding: 0.3rem 1.5rem;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(19, 198, 40);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+  margin-left: 26rem; /* Alinear el botón a la derecha */
+}
+
+.add-comment button:hover {
+  background-color: #1cc61967;
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 576px) {
+.add-comment button {
+  margin-left: 2.5rem; /* Alinear el botón a la derecha */
+
+}
+.add-comment > h2 {
+  font-size: 2rem;
+}
+}

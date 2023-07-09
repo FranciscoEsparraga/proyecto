@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --text: #3c3c95;
+  --background: #f7f5eee4;
+  --secondary-button: #e6d9ed;
+  --primary-button: #9991ca;
+  --accent: #8750a5;
+
+}
+
+.app {
+font-family: 'Abel', sans-serif;
+  overflow-x: clip;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* background-color: var(--background); */
+  background-color: rgb(11, 98, 75);
+  background-image: radial-gradient(
+      at 95% 94%,
+      rgb(241, 247, 238) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 6% 90%, rgb(238, 247, 242) 0px, transparent 50%),
+    radial-gradient(at 69% 91%, rgb(238, 247, 241) 0px, transparent 50%),
+    radial-gradient(at 32% 89%, rgb(238, 247, 240) 0px, transparent 50%),
+    radial-gradient(at 90% 53%, rgb(184, 240, 144) 0px, transparent 50%),
+    radial-gradient(at 18% 49%, rgb(106, 135, 95) 0px, transparent 50%),
+    radial-gradient(at 90% 89%, rgb(219, 132, 38) 0px, transparent 50%),
+    radial-gradient(at 94% 23%, rgb(176, 237, 191) 0px, transparent 50%),
+    radial-gradient(at 69% 89%, rgb(12, 233, 78) 0px, transparent 50%),
+    radial-gradient(at 13% 11%, rgba(130, 219, 186, 0.702) 0px, transparent 50%);
+  color: var(--text);
+}
+
+main {
+  flex-grow: 1;
+  margin: 30px;
+}
+
+header {
+  background-color: var(--primary-button);
+  place-content: center;
+}
+
+footer {
+  margin-top: auto;
+}

@@ -1,0 +1,19 @@
+.avatar-container {
+  display: inline-block;
+}
+
+.avatarHeader {
+  display: block;
+  max-width: 20%;
+  height: auto;
+  margin: auto;
+  border-radius: 50%;
+}
+
+@media (min-width: 576px) {
+  .avatarHeader {
+    max-width: 15%;
+    min-width: 5rem;
+    margin-right: 50px;
+  }
+}

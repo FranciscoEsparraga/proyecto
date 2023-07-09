@@ -1,0 +1,60 @@
+.deleteButton {
+  display: inline-block;
+  padding: 0.2rem;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(19, 198, 40);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: -1.5rem;
+  float: left; /* Mover a la izquierda */
+  margin-left: 1.8rem; /* Ajuste de margen izquierdo */
+}
+
+
+
+
+.deleteButton:hover {
+  background-color: #db4747;
+}
+
+.deleteButton2 {
+  display: inline-block;
+  padding: 0.1rem;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(19, 198, 40);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+  float: left; /* Mover a la izquierda */
+  margin-left: 0rem; /* Ajuste de margen izquierdo */
+}
+
+
+
+
+.deleteButton2:hover {
+  background-color: #db4747;
+}
+
+@media (max-width: 576px) {
+  .deleteButton {
+  margin-left: 0.6rem; /* Ajuste de margen izquierdo */
+  }
+
+  .deleteButton2 {
+      margin-left: -0.3rem; /* Ajuste de margen izquierdo */
+
+  }
+}

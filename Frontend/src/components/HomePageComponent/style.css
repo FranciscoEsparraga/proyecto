@@ -1,0 +1,303 @@
+.home-page {
+  display: top;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-name {
+  padding: 2rem;
+  text-align: left;
+}
+
+.page-name > h2 {
+  font-size: 8rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: #0f770d;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+    sans-serif;
+  letter-spacing: 2px;
+}
+
+.home-component > div {
+  margin-top: 1rem;
+}
+
+#div-noLink {
+  display: flex;
+  align-items: center;
+  margin-top: 28px; /* Ajusta el margen superior según sea necesario */
+  margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif; /* Fuente "Abel" */
+}
+
+#div-link:hover {
+  transform: scaleX(1.1);
+  transform-origin: left;
+  transition: transform 0.2s ease-in-out;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif; /* Fuente "Abel" */
+}
+
+#div-link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 0; /* Ajusta el margen superior según sea necesario */
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif; 
+}
+
+.div-decoration1 {
+  font-size: 4rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: #0f770d;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  position: relative; /* Agregar posición relativa */
+}
+
+.div-decoration1::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Ajustar la posición al final de la palabra */
+  left: 0; /* Ajustar la posición a la izquierda */
+  width: 100%;
+  height: 2px;
+  background-color: #0f770d;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: left;
+}
+
+.div-decoration1:hover {
+  transform: translateX(5%);
+}
+
+.div-decoration1:hover::after {
+  transform: scaleX(1);
+}
+
+.div-decoration2 {
+  font-size: 4rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: #0f770d;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  position: relative; /* Agregar posición relativa */
+}
+
+.div-decoration2::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Ajustar la posición al final de la palabra */
+  left: 0; /* Ajustar la posición a la izquierda */
+  width: 100%;
+  height: 2px;
+  background-color: #0f770d;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: left;
+} 
+
+.div-decoration2:hover {
+  transform: translateX(7%);
+}
+
+.div-decoration2:hover::after {
+  transform: scaleX(1);
+}
+
+.div-decoration3 {
+  font-size: 4rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: #0f770d;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  position: relative; /* Agregar posición relativa */
+}
+
+.div-decoration3::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Ajustar la posición al final de la palabra */
+  left: 0; /* Ajustar la posición a la izquierda */
+  width: 100%;
+  height: 2px;
+  background-color: #0f770d;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: left;
+}
+
+.div-decoration3:hover {
+  transform: translateX(9%);
+}
+
+.div-decoration3:hover::after {
+  transform: scaleX(1);
+}
+
+.div-decoration4 {
+  font-size: 4rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: #0f770d;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  position: relative; /* Agregar posición relativa */
+}
+
+.div-decoration4::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Ajustar la posición al final de la palabra */
+  left: 0; /* Ajustar la posición a la izquierda */
+  width: 100%;
+  height: 2px;
+  background-color: #0f770d;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: left;
+}
+
+.div-decoration4:hover {
+  transform: translateX(11%);
+}
+
+.div-decoration4:hover::after {
+  transform: scaleX(1);
+}
+
+.div-decoration5 {
+  font-size: 4rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: #0f770d;
+  font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  position: relative; /* Agregar posición relativa */
+}
+
+.div-decoration5::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Ajustar la posición al final de la palabra */
+  left: 0; /* Ajustar la posición a la izquierda */
+  width: 100%;
+  height: 2px;
+  background-color: #0f770d;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: left;
+}
+
+.div-decoration5:hover {
+  transform: translateX(13%);
+}
+
+.div-decoration5:hover::after {
+  transform: scaleX(1);
+}
+
+@media (max-width: 576px) {
+  .page-name h2 {
+    font-size: 5rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    color: #0f770d;
+    font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+      sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .div-decoration1 {
+        font-size: 2rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+    color: #0f770d;
+    font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+      sans-serif;
+    letter-spacing: 2px;
+      padding-top: 0.5rem;
+  padding-bottom: 0.1rem;
+
+  }
+
+    .div-decoration2 {
+        font-size: 2rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+    color: #0f770d;
+    font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+      sans-serif;
+    letter-spacing: 2px;
+          padding-top: 0.5rem;
+  padding-bottom: 0.1rem;
+
+  }
+
+    .div-decoration3 {
+        font-size: 2rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+    color: #0f770d;
+    font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+      sans-serif;
+    letter-spacing: 2px;
+          padding-top: 0.5rem;
+  padding-bottom: 0.1rem;
+
+  }
+
+    .div-decoration4 {
+        font-size: 2rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+    color: #0f770d;
+    font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+      sans-serif;
+    letter-spacing: 2px;
+          padding-top: 0.5rem;
+  padding-bottom: 0.1rem;
+
+  }
+
+    .div-decoration5 {
+        font-size: 2rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+    color: #0f770d;
+    font-family: "Abel", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+      sans-serif;
+    letter-spacing: 2px;
+          padding-top: 0.5rem;
+  padding-bottom: 0.1rem;
+
+  }
+}
